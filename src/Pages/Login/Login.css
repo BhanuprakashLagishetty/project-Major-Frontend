@@ -1,0 +1,64 @@
+.Login{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-vector/realistic-design-technology-background_23-2148426705.jpg?w=740&t=st=1701772559~exp=1701773159~hmac=ca7dbbf960ad7938e1f8b6b89dff937de187f39247e476854448eff1b57e35cc');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+}
+.loginform label{
+    text-align:left;
+    color: rgb(173, 167, 167);
+}
+.loginform input{
+    width: 400px;
+    height: 30px;
+    margin: 20px;
+    background-color: transparent;
+   border-radius:9px;
+   border: 1px solid white;
+   padding: 10px;
+   color: white;
+   font-size: 16px;
+ 
+}
+.loginRegisterButton{
+    width: 427px;
+    height: 48px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+    
+.register{
+    color: white;
+    font-size: 20px;
+}
+.register a{
+    color: skyblue;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+.loginRegisterButton:disabled{
+    cursor:not-allowed;
+    background-color: rgb(204, 198, 198);
+}

@@ -1,0 +1,62 @@
+.searchbar{
+    padding-top: 50px;
+   }
+   .searchbar input{
+    padding: 9px;
+    width: 300px;
+   }
+   .roletable{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+    text-transform: capitalize;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    width:850px ;
+   }
+   .status{
+    width: 100px;
+   }
+   .titile{
+    width: 400px;
+    padding-right: 55px;
+   }
+   .slolution{
+    width: 200px;
+   }
+   .difficulty{
+    width: 100px;
+   }
+  .roletable1{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:20px;
+    width: 850px
+;
+  }
+  .ro2{
+    background-color: rgb(238, 238, 238);
+  }
+  .df{
+    font-weight: bolder;
+    color: rgb(255, 179, 0);
+  }
+  .st{
+    color: rgb(0, 128, 94);
+  }
+  .totalTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+  }
+  .roletable1:nth-child(odd)
+  {
+    background-color: rgb(238, 238, 238);
+  }

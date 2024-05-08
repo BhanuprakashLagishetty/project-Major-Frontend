@@ -1,0 +1,18 @@
+.link{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.desc{
+    font-family: 'varela Round',sans-serif;
+    font-size: 14px;
+    color: #444;
+    
+    line-height: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+}

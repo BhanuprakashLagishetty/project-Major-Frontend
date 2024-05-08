@@ -1,0 +1,104 @@
+.templatecontent{
+    display: table-column;
+   
+
+    padding-top: 30px;
+    height: 80vh;
+    overflow: scroll;
+    padding-right: 60px;
+    width: 45%;
+    
+}
+.totalterminal{
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+}
+.platform{
+    width: 700px;
+   
+    padding-left: 30px;
+    height: 85vh;
+    overflow: scroll;
+}
+.platforminfo{
+    border-bottom: 1px solid rgb(219, 215, 215);
+    width: 100%;
+}
+.platforminfo1{
+    border-bottom: 1px solid rgb(219, 215, 215);
+    width: 400px;
+
+}
+.template{
+    width:700px;
+    height:400px ;
+    padding: 30px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color:rgb(238, 236, 236);
+}
+
+.platforminfo{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.table{
+    padding: 9px;
+  
+}
+.table th,td{
+    padding: 9px;
+    
+}
+.table tr{
+    border: 1px solid green;
+}
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.queriescontent a{
+    text-decoration: none;
+}
+.button{
+    cursor: pointer;
+   
+
+}
+.button:disabled{
+    cursor: not-allowed;
+    background-color: rgb(162, 162, 192);
+}
+.totalterminal{
+    display: flex;
+}
+.totalterminal{
+    height: 80vh;
+}
+.question p{
+font-size: 16px;
+font-weight: 500;
+
+
+}
+.question{
+    border: 1px solid rgb(158, 153, 153);
+    padding: 20px;
+    border-radius: 19px;
+    
+}
+.button{
+    margin-top: 0px;
+}
+.button4{
+    margin-top:20px;
+}
+/* .button:hover{
+    background-color: rgb(94, 94, 189);
+} */

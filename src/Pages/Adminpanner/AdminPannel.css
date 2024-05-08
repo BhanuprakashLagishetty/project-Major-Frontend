@@ -1,0 +1,68 @@
+
+.AdminNav{
+   
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.AdminNav h2{
+    font-weight: 800;
+    color: rgb(65, 64, 64);
+}
+.adminMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.adminentry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(90, 89, 89);
+    padding: 30px;
+    border-radius: 9px;
+}
+.adminentry input{
+   width: 450px;
+   padding: 10px;
+   font-size: 16px;
+   margin: 10px;
+}
+.adminsubmit{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-weight: 600;
+    width: 650px;
+} 
+.problemsDisplay{
+  
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 629px;
+        padding: 41px;
+        margin: 20px;
+        border: 1px solid gray;
+        border-radius: 20px;
+    }
+
+.problemsDisplay h1{
+    font-size: 15px;
+}
+.adminMain2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    
+}

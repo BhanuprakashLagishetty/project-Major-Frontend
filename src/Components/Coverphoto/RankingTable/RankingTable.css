@@ -1,0 +1,15 @@
+.coverphototable,
+td,
+th {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 20px;
+    border: 1px solid white;
+    padding: 30px;
+    color: green;
+    color: white;
+}
+
+table {
+    text-align: center;
+}

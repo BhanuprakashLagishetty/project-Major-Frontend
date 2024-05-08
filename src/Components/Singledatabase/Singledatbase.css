@@ -1,0 +1,13 @@
+.topics .topic1{
+    margin-right: 20px;
+  }
+  .topic1 p{
+    padding: 10px 15px;
+    border: 1px solid rgb(22, 22, 113);
+    border-radius: 50px;
+  }
+  .topic1 p:hover{
+    background-color: #1b205b;
+    color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,78 @@
+.Login{
+    height:calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url('https://img.freepik.com/free-vector/realistic-design-technology-background_23-2148426705.jpg?w=740&t=st=1701772559~exp=1701773159~hmac=ca7dbbf960ad7938e1f8b6b89dff937de187f39247e476854448eff1b57e35cc'); */
+    background-image: url('./loginbackground.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.loginform label{
+    text-align:left;
+    color: rgb(173, 167, 167);
+}
+.loginform input{
+    width: 400px;
+    height: 20px;
+    margin: 20px;
+    color: black;
+    
+   border-radius:19px;
+    background-color: white;
+   border: 1px solid white;
+   padding: 10px;
+   outline: none;
+
+   font-size: 16px;
+
+ 
+}
+.loginform{
+    background-color: rgba(5, 65, 105, 0.377);
+    backdrop-filter: blur(10px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.loginRegisterButton{
+    width: 427px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(194, 58, 8);
+    
+}
+.loginRegisterButton:hover{
+    background-color: rgb(153, 58, 24);
+}
+.register{
+    color: white;
+    font-size: 20px;
+}
+.register a{
+    color: skyblue;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
